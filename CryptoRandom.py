@@ -1,3 +1,33 @@
+'''
+CryptoRandom.Ecrypt()
+	3 Arge:
+		 1- String To Encryption
+		 2- File To Encryption
+	NOTE: If you Want Encryption File Will be frist arge = "" 
+		EXM: CryptoRandom.Encrypt("",'File.pdf')
+
+CryptoRandom.Decrypt()
+	3 Arge:
+		1- KEY
+		2- Encrypted Data to Decryption
+		3- File To Decryption
+	NOTE: If you Want Decryption File Will be Second arge = "" 
+	EXM: CryptoRandom.Encrypt(KEY,"",'File.pdf')
+
+CryptoRandom.Key()
+	No Arge
+	This Function For Get Your Key 
+
+CryptoRandom.Encrypted_data()
+	No Arge
+	This Function For Get Your Encrypted Data
+	NOTE: Uesing If Your Data Type is (Text)
+
+Crypto.Random.Decrypted_data()
+	No Arge
+	This Function For Get Your Decrypted Data	
+	 NOTE: Uesing If Your Data Type is (Text)
+'''
 from Crypto.Cipher import ARC4
 from Crypto.Hash import SHA
 from Crypto import Random

@@ -13,7 +13,7 @@ What types of encryption are used?
 
 	2- ARC4
 
-What is the next update?
+What is the next update (Version 2.0)?
 
     Adding the possibility of encryption through:
         1- AES

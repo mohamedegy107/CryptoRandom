@@ -17,7 +17,6 @@ What is the next update (Version 2.0)?
 
     Adding the possibility of encryption through:
         1- AES
-        2- RSA
         2- DES
     Encrypt and hide files:
         Is a feature through which files can be encrypted and hidden after encryption and can only be shown after entering the  encryption key
